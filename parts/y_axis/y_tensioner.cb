@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="y_tensioner" units="Inches">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects />
+    </layer>
+    <layer name="holes" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <circle id="10" c="0.602940311118,0.437924942433,0" d="0.3145">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="11" c="0.170190310966,2.43792494133,0" d="0.217999997798">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="22" c="1.5669365862,2.99993215831,0" d="0.3145">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="23" c="2,1,0" d="0.217999997798">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="31" c="0.357341279027,3.58715668562,0" d="0.218">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="32" c="0.323118060571,4.69126194251,0" d="0.21799947186">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="33" c="1.59429186028,4.28809534833,0" d="0.218">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="34" c="1.56006864182,5.39220060522,0" d="0.21799947186">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="46">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0.164685709502,1.22438894994,0</p>
+            <p>0.16099530603,1.22441130099,0</p>
+            <p b="0.10762564328495138">0.164685709494218,1.22438894994312,0</p>
+            <p b="0.88932669759568561">0.669837645654621,1.33200011299731,0</p>
+            <p>0.582186845321,1.53159795748,0</p>
+            <p>0.558722175262,1.52129375246,0</p>
+            <p b="-0.099458145315672639">0.549646798805,1.51749318526,0</p>
+            <p>0.164685709137219,1.44236507377221,0</p>
+            <p>0.162368921603,1.44238057929,0</p>
+          </pts>
+        </pline>
+        <pline id="47" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="-0.97281989345521358">2.00900483573264,2.21351506638535,0</p>
+            <p b="0.97281989345521358">2.00766537803043,1.99554557550035,0</p>
+          </pts>
+        </pline>
+        <pline id="48" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="-0.97281989345521269">0.160995306029304,1.22441130098788,0</p>
+            <p b="0.97281989345521269">0.162368921602354,1.44238057929071,0</p>
+          </pts>
+        </pline>
+        <pline id="49">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>2.00766537803,1.9955455755,0</p>
+            <p b="0.099458145316553864">2.00534858809052,1.99556071796147,0</p>
+            <p>1.62039927643832,1.92037228034686,0</p>
+            <p b="0.0025006065909088104">1.62051169349993,1.9204120659877,0</p>
+            <p>1.61132449568,1.91657029099,0</p>
+            <p b="-0.88932669758787142">1.58786144067,1.90626240896,0</p>
+            <p b="-0.10762564328406853">1.50017936254242,2.10584651528659,0</p>
+            <p>2.00531442880022,2.21353683911402,0</p>
+            <p>2.00900483573,2.21351506638,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+    <layer name="spacer_outline" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <pline id="44" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>1.31860163111,5.37755016869,0</p>
+            <p b="0.99999999999982425">1.34648500499747,4.28290453468549,0</p>
+            <p>1.84209871556,4.29328616197,0</p>
+            <p b="1.0000000000008715">1.80153565252675,5.40685104175105,0</p>
+          </pts>
+        </pline>
+        <pline id="45" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="0.999999999999826">0.10953442374447,3.58196587197549,0</p>
+            <p>0.60514813431,3.59234749926,0</p>
+            <p b="1.0000000000008715">0.56458507127775,4.70591237904105,0</p>
+            <p>0.0816510498643,4.67661150598,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+    <layer name="y_tensiioner_outline" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <pline id="50" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="1.0000000000010227">1.75000000291891,0.999960821529766,0</p>
+            <p>2.24999999708,1.00003917847,0</p>
+            <p b="1.516714094501473">2.24968657781656,3.00003915170793,0</p>
+            <p>1.09625694369,2.50535331058,0</p>
+          </pts>
+        </pline>
+        <pline id="51" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p b="0.9999999999978354">0.420190311117,2.43792494243064,0</p>
+            <p>-0.0798096891857,2.43792494023,0</p>
+            <p b="1.5167140945056374">-0.079809688882,0.437924942433,0</p>
+            <p>1.07369745305,0.932430024127,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts />
+  <ActiveLayer>spacer_outline</ActiveLayer>
+</CADFile>
