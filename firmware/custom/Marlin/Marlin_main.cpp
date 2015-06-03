@@ -4275,7 +4275,7 @@ static uint32_t stat_update = 0;
 #define HOLDING 3
 
 
-int state = NONE;
+int state ;
 int lastState = state;
 
 
@@ -4309,7 +4309,7 @@ void handle_status_leds_RS(void) {
     
     if (degHotend(0) < (degTargetHotend(0) - hysteresis) )
     {             
-        r = 0xff
+        r = 0xff;
         g = 0;
         b = 0;
         state = HEATING;
@@ -4326,10 +4326,10 @@ void handle_status_leds_RS(void) {
       r = 0xfe;
       g = 0xff;
       b = 0xff;
-      state = STEADY;     
+      state = HOLDING;     
 
     }  
-    if lastState != state
+    if (lastState != state)
     {
       setStrip(r, g, b, 1);  
       lastState = state;
