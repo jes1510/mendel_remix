@@ -198,11 +198,17 @@
   #define K1 0.95 //smoothing factor within the PID
   #define PID_dT ((OVERSAMPLENR * 10.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
+  #define  DEFAULT_Kp 12.03
+  #define  DEFAULT_Ki 0.43
+  #define  DEFAULT_Kd 83.54
+
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Ultimaker
-    #define  DEFAULT_Kp 22.2
-    #define  DEFAULT_Ki 1.08
-    #define  DEFAULT_Kd 114
+    //#define  DEFAULT_Kp 22.2
+    //#define  DEFAULT_Ki 1.08
+    //#define  DEFAULT_Kd 114
+    
+    
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
@@ -438,7 +444,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
   // these are the offsets to the probe relative to the extruder tip (Hotend - Probe)
   #define X_PROBE_OFFSET_FROM_EXTRUDER -36
   #define Y_PROBE_OFFSET_FROM_EXTRUDER -40
-  #define Z_PROBE_OFFSET_FROM_EXTRUDER -9  // was -11.5
+  #define Z_PROBE_OFFSET_FROM_EXTRUDER -11.35 // wAS -12.8
 
   #define Z_RAISE_BEFORE_HOMING 10      // (in mm) Raise Z before homing (G28) for Probe Clearance.
                                         // Be sure you have this distance over your Z_MAX_POS in case
@@ -496,7 +502,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // default settings
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402,78.7402,200.0*8/3,760*1.1}  // default steps per unit for Ultimaker
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {160, 40, 830.15498, 104.32355}  // Was 63 for extruder  101.285 at one point  Zwas 800
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {39.024, 39.024, 400, 104.32355}  // Z was 415.07749
 #define DEFAULT_MAX_FEEDRATE          {500, 250, 5, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {2000,1000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
@@ -510,9 +516,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // #define EXTRUDER_OFFSET_Y {0.0, 5.00}  // (in mm) for each extruder, offset of the hotend on the Y axis
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
-#define DEFAULT_XYJERK                5.0    // (mm/sec)
+#define DEFAULT_XYJERK                1.0    // (mm/sec)
 #define DEFAULT_ZJERK                 0.4     // (mm/sec)
-#define DEFAULT_EJERK                 5.0    // (mm/sec)
+#define DEFAULT_EJERK                 1.0    // (mm/sec)
 
 //===========================================================================
 //=============================Additional Features===========================

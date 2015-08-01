@@ -2797,8 +2797,6 @@ Sigma_Exit:
 #ifdef RS_LIGHTS        
         reset_strip();         
         setStrip(red, grn, blu, 1);
-      //  setStrip(0xff, grn, blu, 1);
-    //    setStrip(0xff, grn, blu, 1);
 #endif  //RS_LIGHTS
       }
       break;
