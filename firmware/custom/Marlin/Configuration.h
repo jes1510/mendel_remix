@@ -444,7 +444,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
   // these are the offsets to the probe relative to the extruder tip (Hotend - Probe)
   #define X_PROBE_OFFSET_FROM_EXTRUDER -36
   #define Y_PROBE_OFFSET_FROM_EXTRUDER -40
-  #define Z_PROBE_OFFSET_FROM_EXTRUDER -11.35 // wAS -12.8
+  #define Z_PROBE_OFFSET_FROM_EXTRUDER -11.35 // Was 11.35
 
   #define Z_RAISE_BEFORE_HOMING 10      // (in mm) Raise Z before homing (G28) for Probe Clearance.
                                         // Be sure you have this distance over your Z_MAX_POS in case
@@ -550,7 +550,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define PLA_PREHEAT_FAN_SPEED 255   // Insert Value between 0 and 255
 
 #define ABS_PREHEAT_HOTEND_TEMP 225
-#define ABS_PREHEAT_HPB_TEMP 100
+#define ABS_PREHEAT_HPB_TEMP 110
 #define ABS_PREHEAT_FAN_SPEED 0   // Insert Value between 0 and 255
 
 //LCD and SD support
