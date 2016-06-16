@@ -1585,8 +1585,7 @@ void process_commands()
             plan_buffer_line(destination[X_AXIS], destination[Y_AXIS], destination[Z_AXIS], destination[E_AXIS], feedrate, active_extruder);
             st_synchronize();
             current_position[X_AXIS] = destination[X_AXIS];
-            current_position[Y_AXIS] = destination[Y_AXIS];
-
+            current_position[Y_AXIS] = destination[Y_AXIS]; 
             HOMEAXIS(Z);
           }
                                                 // Let's see if X and Y are homed and probe is inside bed area.
